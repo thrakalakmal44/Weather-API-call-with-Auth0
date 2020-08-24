@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather in 8 cities</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="/css/mailn.css"/>
+  </head>
+
+  <body>
+    <header>
+      <div class="buttonSet">
+        <button id="btn-login" disabled="true" onclick="login()">Log in</button>
+        <button id="btn-logout" disabled="true" onclick="logout()">Log out</button>
+        <button id="btn-call-weather" disabled="true" onclick="callWeather()">GET Weather</button>
+      </div>
+      <div class="heading">
+        <h1 style="font-family:'Times New Roman' ;">Current Weather Details (<small>Temperature/ <sup>o</sup>C & Description</small>) In Eight Cities</h1>
+        <hr/>
+      </div>
+    </header>
+    <main>
+      <div class="hidden" id="gated-content">
+        <div class="city_weather_table" >
+          <table class="content-table">
+              <thead>
+                  <tr class="bg-info">
+                      <th><i>City Code</i></th>
+                      <th><i>City Name</i></th>
+                      <th><i>Temperature</i></th>
+                      <th><i>Description</i></th>
+                  </tr>
+              </thead>
+              <tbody id="myTable">
+                
+              </tbody>
+          </table>
+        </div>
+      </div>
+      <script src="js/weather.js"></script>
+      <script src="https://cdn.auth0.com/js/auth0-spa-js/1.9/auth0-spa-js.production.js"></script>
+      <script src="js/app.js"></script>
+      
+      
+    
+
+    </main>
+    
+
+    
+  </body>
+</html>

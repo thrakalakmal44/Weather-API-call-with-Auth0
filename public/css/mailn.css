@@ -1,0 +1,58 @@
+body{
+  background-image: url(3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hidden {
+  display: none;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.buttonSet{
+  margin-left: auto;
+  width: fit-content;
+}
+
+.heading {
+  margin: auto;
+  width: fit-content;
+}
+.city_weather_table{
+  
+  margin: auto;
+  width: fit-content;
+}
+
+.content-table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1.0em;
+  min-width: 600px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+.content-table thead tr{
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left ;
+  font-weight: bold;
+}
+.content-table th,
+.content-table td{
+  padding: 12px 15px;
+}
+.content-table tbody tr {
+  border-bottom: 1px solid #7c7b7b;
+  
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #006652;
+}
+
